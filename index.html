@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Mehzabeen — Product Manager Portfolio</title>
+<meta name="description" content="Product Manager portfolio — workflow automation, feature requests, client-driven product work in B2B SaaS." />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div id="progress"></div>
+
+<nav class="top">
+  <div class="inner">
+    <div class="brand">Mehzabeen<span class="brand-dot"></span></div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#case-studies">Case Studies</a></li>
+      <li><a href="#shipped">Shipped Work</a></li>
+      <li><a href="#building">Currently Building</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+
+  <header class="hero">
+    <div class="hero-glow" data-parallax="0.25"></div>
+    <div class="hero-blob"></div>
+    <span class="eyebrow hero-anim" style="animation-delay:0s">Product Manager</span>
+    <h1 class="hero-anim" style="animation-delay:.08s">I turn client requests and research into features that actually ship.</h1>
+    <p class="lede hero-anim" style="animation-delay:.16s">
+      Past year working as a Product Manager on a B2B SaaS agency platform — listening to client problems, researching how other tools have solved them, scoping what can ship with the resources we have, breaking the work into versions, and making sure it gets delivered on time.
+    </p>
+    <div class="meta hero-anim" style="animation-delay:.24s">
+      <a href="mailto:reachmehzabeen@gmail.com"><span class="link-icon" data-icon="mail"></span>reachmehzabeen@gmail.com</a>
+      <span class="divider">·</span>
+      <a href="tel:01712925647"><span class="link-icon" data-icon="phone"></span>01712925647</a>
+      <span class="divider">·</span>
+      <a href="https://www.linkedin.com/in/mehzabeen-chy" target="_blank" rel="noopener"><span class="link-icon" data-icon="linkedin"></span>LinkedIn</a>
+    </div>
+    <a class="scroll-hint" href="#about" aria-label="Scroll to content"><span data-icon="chevrons"></span></a>
+  </header>
+
+  <section id="about" class="about">
+    <div class="section-head">
+      <div class="label"><span class="label-icon" data-icon="user"></span> About</div>
+      <h2>How I work as a PM</h2>
+    </div>
+    <div class="about-body">
+      <p>
+        Hi, I'm Mehzabeen. Over the past <strong>year</strong> I've worked as a Product Manager on a B2B SaaS agency platform, contributing to more than a dozen features across <strong>workflow automation, billing, client communication, and account management</strong>.
+      </p>
+      <p>
+        My day-to-day looks the same across most features I take on: hear the problem from clients, research how competitors and other tools have solved it, figure out what can realistically ship with the resources available, break the work into versions, and stay close to the team until it's delivered.
+      </p>
+      <p>
+        Going forward I want to keep working on <strong>enhancing features, managing requests, growth and user data, how clients behave after we ship, client and team management, and research</strong>.
+      </p>
+    </div>
+  </section>
+
+  <section id="case-studies">
+    <div class="section-head">
+      <div class="label"><span class="label-icon" data-icon="layers"></span> Selected Case Studies</div>
+      <h2>Three features I worked on closely</h2>
+      <p>Each of these started as a real client request or pain point. For all three I went through the same loop — gather the problem, research, scope, break into versions, and ship with the team. Below is what each looked like end-to-end.</p>
+    </div>
+
+    <article class="case">
+      <div class="case-head">
+        <span class="num">Case Study 01</span>
+      </div>
+      <h3>Proposal V2 — Rebuilding the proposal flow into a structured, multi-signatory workflow</h3>
+      <p class="sub">From a linear form with single-client signing into an inline builder with multi-signatory acceptance and signature tracking.</p>
+      <div class="tags">
+        <span class="tag">Workflow redesign</span>
+        <span class="tag">B2B sales</span>
+        <span class="tag">Signature tracking</span>
+        <span class="tag">Customization</span>
+      </div>
+
+      <h4>Problem</h4>
+      <p>The original proposal builder was a linear form. Adding services, packages, add-ons, and tax meant switching across screens, and signing was limited to a single client with no signature audit trail. Clients with multi-stakeholder deals didn't have a clean way to use the flow.</p>
+
+      <h4>What I did</h4>
+      <ul>
+        <li>Gathered the recurring problems from clients and support — context-switching pain in the builder, single-signatory limitation, lack of audit info on signatures.</li>
+        <li>Researched competitor proposal tools and standalone e-signature products to see how they handled inline service selection and multi-signatory acceptance.</li>
+        <li>Worked out with engineering what was realistically shippable given the team's capacity, and broke the rebuild into versions instead of one large release.</li>
+        <li>Wrote the PRD, coordinated with design, QA, and engineering through delivery, and ensured each version shipped on time.</li>
+      </ul>
+
+      <h4>What shipped</h4>
+      <ul>
+        <li>Inline service selection — services, packages, add-ons, and tax configurable directly inside the proposal.</li>
+        <li>Multi-signatory support (up to 5) with primary client logic and clear acceptance rules.</li>
+        <li>Secure public links with IP and timestamp tracking on every signature event.</li>
+        <li>Configurable reminders for stuck proposals.</li>
+        <li>Customization controls so agencies could match their own branding.</li>
+      </ul>
+
+      <h4>Outcome</h4>
+      <p>The new flow removed the context-switching that came up most often in support, and gave clients a way to send proposals to multiple decision-makers with a record of who signed and when — something they previously had to handle outside the platform.</p>
+
+      <div class="role-note">
+        <strong>My role:</strong> PM on the feature — gathered client problems, did competitor and tool research, wrote the PRD, worked with design and engineering through versions, and coordinated delivery with QA, marketing, and support.
+      </div>
+    </article>
+
+    <article class="case">
+      <div class="case-head">
+        <span class="num">Case Study 02</span>
+      </div>
+      <h3>Company Accounts (B2B) — Letting agencies manage companies, not just contacts</h3>
+      <p class="sub">Adding a company-level layer above contacts so agencies could collaborate with multiple people inside a single client business.</p>
+      <div class="tags">
+        <span class="tag">B2B accounts</span>
+        <span class="tag">Client management</span>
+        <span class="tag">Client request</span>
+        <span class="tag">Cross-functional delivery</span>
+      </div>
+
+      <h4>Problem</h4>
+      <p>Agencies on the platform serve businesses, but the system treated every client as a single contact. There was no clean way to keep multiple people from the same client company connected — agencies were creating duplicate contacts for the same company, and sending proposals or invoices at the contact level even when the work was really for the business.</p>
+
+      <h4>What I did</h4>
+      <ul>
+        <li>Heard the problem repeatedly from agency clients during meetings and from the support team's tickets — same company, multiple contacts, no clean way to group them.</li>
+        <li>Researched how other CRM and agency tools structure companies vs contacts, and which of those patterns were realistic for our user base.</li>
+        <li>Worked with engineering to figure out what was shippable with the resources we had — kept the model simpler than full org hierarchies and broke the work into versions.</li>
+        <li>Wrote the PRD, coordinated with design and engineering, supported UAT, and worked with the business and support teams on rollout.</li>
+      </ul>
+
+      <h4>What shipped</h4>
+      <ul>
+        <li>Company as a first-class entity with multiple contacts grouped under it.</li>
+        <li>Ability to send proposals and invoices at the company level.</li>
+        <li>Primary contact logic so it's clear who's responsible for billing and decisions.</li>
+        <li>Backward compatibility so existing contact-only clients kept working.</li>
+      </ul>
+
+      <h4>Outcome</h4>
+      <p>Agencies could now represent their actual client structure in the platform instead of working around it with duplicate contacts. Proposals and invoices started flowing at the company level for clients that needed it.</p>
+
+      <div class="role-note">
+        <strong>My role:</strong> PM on the feature — gathered client and support input, did competitor research, scoped versions with engineering, wrote the PRD, and worked with the team through delivery and rollout.
+      </div>
+    </article>
+
+    <article class="case">
+      <div class="case-head">
+        <span class="num">Case Study 03</span>
+      </div>
+      <h3>Credit System — Letting clients top up once and use credits across services</h3>
+      <p class="sub">A high-request feature solving a recurring purchase friction — clients buying the same low-ticket services again and again.</p>
+      <div class="tags">
+        <span class="tag">Billing</span>
+        <span class="tag">High client request</span>
+        <span class="tag">Feature enhancement</span>
+        <span class="tag">Payment integration</span>
+      </div>
+
+      <h4>Problem</h4>
+      <p>This came up as a high-priority feature request. The pain point was repeat purchasing — clients were going through the full purchase flow again and again for the same kinds of services. A credit-based model was a more viable fit: buy credits once, then use them against services over time.</p>
+
+      <h4>What I did</h4>
+      <ul>
+        <li>Took the recurring client request and broke down what a credit-based model would actually need: a way to purchase credits with payment, a place to hold the balance, and a way to redeem them against services.</li>
+        <li>Researched how other platforms handle credit purchasing, balance display, and redemption flows.</li>
+        <li>Worked with engineering on what could ship first vs in later versions, given resource constraints.</li>
+        <li>Wrote the PRD, coordinated with design and engineering through delivery, and worked with support and the business team on launch.</li>
+      </ul>
+
+      <h4>What shipped</h4>
+      <ul>
+        <li>A credit purchase flow with payment integration.</li>
+        <li>A credit balance per client account, visible inside the platform.</li>
+        <li>Redemption at checkout — credits applied against eligible services with a clear remaining-balance view.</li>
+        <li>Admin controls for managing balances and adjustments.</li>
+      </ul>
+
+      <h4>Outcome</h4>
+      <p>Clients could top up once and use credits across services instead of repeating the full purchase flow for every low-ticket transaction. The repeat-purchase friction that drove the request in the first place was no longer the blocker.</p>
+
+      <div class="role-note">
+        <strong>My role:</strong> PM on the feature — translated the high-priority client request into a workable scope, did tool research, wrote the PRD, broke the build into versions with engineering, and coordinated with design, QA, and the business team through launch.
+      </div>
+    </article>
+
+  </section>
+
+  <section id="shipped">
+    <div class="section-head">
+      <div class="label"><span class="label-icon" data-icon="check"></span> Other Shipped Work</div>
+      <h2>What else I worked on this year</h2>
+      <p>Nine more features I worked on with the team — each one started from a client request or internal gap and went through the same loop: research, scope, version, ship.</p>
+    </div>
+
+    <div class="grid">
+
+      <div class="card">
+        <span class="card-icon" data-icon="message"></span>
+        <div class="pill">Communication</div>
+        <h4>In-App Chat</h4>
+        <p>A chat system inside the portal so clients and customers could communicate instantly without leaving the platform — keeping the conversation in the same place as the work.</p>
+      </div>
+
+      <div class="card">
+        <span class="card-icon" data-icon="clipboard"></span>
+        <div class="pill">Lead capture</div>
+        <h4>Public Form Automation</h4>
+        <p>Template-driven public forms that capture responses, map fields, and route them into the right CRM accounts automatically.</p>
+      </div>
+
+      <div class="card">
+        <span class="card-icon" data-icon="sparkles"></span>
+        <div class="pill">Activation</div>
+        <h4>Onboarding Redesign</h4>
+        <p>Reworked the new-user onboarding flow to make the first experience clearer and reduce drop-off in the early steps.</p>
+      </div>
+
+      <div class="card">
+        <span class="card-icon" data-icon="grid"></span>
+        <div class="pill">Catalog</div>
+        <h4>Catalog Redesign</h4>
+        <p>Restructured the service catalog so agencies could find, organize, and present their services more easily, aligned with how they actually merchandise them.</p>
+      </div>
+
+      <div class="card">
+        <span class="card-icon" data-icon="ticket"></span>
+        <div class="pill">Billing</div>
+        <h4>Subscription &amp; Coupon Cross-Compatibility</h4>
+        <p>Closed a long-standing gap where the system only supported one-time service / one-time coupon combinations. Reworked the logic so subscriptions could use one-time coupons and vice versa.</p>
+      </div>
+
+      <div class="card">
+        <span class="card-icon" data-icon="inbox"></span>
+        <div class="pill">Communication</div>
+        <h4>Email Inbox</h4>
+        <p>Brought email correspondence into the platform so client emails could be read and replied to alongside the rest of the workflow.</p>
+      </div>
+
+      <div class="card">
+        <span class="card-icon" data-icon="share"></span>
+        <div class="pill">Conversion</div>
+        <h4>Smart Redirection Module</h4>
+        <p>A configurable redirection layer that sends users to a specific page after any tracked event — purchase, form submit, signup — so flows feel intentional end-to-end.</p>
+      </div>
+
+      <div class="card">
+        <span class="card-icon" data-icon="zap"></span>
+        <div class="pill">Automation</div>
+        <h4>Advanced Client Group Automation</h4>
+        <p>Extended the client grouping system with rule-based automations triggered by group changes, so common "if a client enters group X, do Y" workflows could be set up without engineering help.</p>
+      </div>
+
+      <div class="card">
+        <span class="card-icon" data-icon="file"></span>
+        <div class="pill">Billing</div>
+        <h4>Invoice Without Order ID (Direct Invoice)</h4>
+        <p>Direct Invoice lets agencies bill clients or external contacts without first creating a service order — removing a long-standing block to billing one-off or external work.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="building">
+    <div class="section-head">
+      <div class="label"><span class="label-icon" data-icon="beaker"></span> Currently Building</div>
+      <h2>A side project I'm working on</h2>
+    </div>
+
+    <div class="side">
+      <div class="status">In progress · Prototype</div>
+      <h3>A prioritization web app for PMs and stakeholders drowning in incoming requests</h3>
+      <p>
+        Built out of my own experience juggling a lot of requests at once. The app lets users score and rank requests using two well-known frameworks — <strong>RICE</strong> and <strong>MoSCoW</strong> — side by side, with an interactive UI for re-ranking.
+      </p>
+      <p>
+        The idea: most prioritization tools either pick one framework or assume you already have a backlog tool. This one is framework-first and lightweight, built for the moment when you have a pile of requests and need to triage them quickly.
+      </p>
+    </div>
+  </section>
+
+  <section id="how-i-work">
+    <div class="section-head">
+      <div class="label"><span class="label-icon" data-icon="briefcase"></span> How I Work</div>
+      <h2>My core responsibilities as a PM</h2>
+    </div>
+    <div class="skills">
+      <div>
+        <h4><span class="skill-icon" data-icon="target"></span> Owning features end-to-end</h4>
+        <ul>
+          <li>Take features from ideation through launch, keeping them aligned with user needs and business goals</li>
+          <li>Manage and prioritize the product roadmap, feature requests, and enhancements by impact and feasibility</li>
+          <li>Contribute to roadmap planning and execution of strategic initiatives</li>
+        </ul>
+      </div>
+      <div>
+        <h4><span class="skill-icon" data-icon="file"></span> Documentation &amp; specs</h4>
+        <ul>
+          <li>Create detailed PRDs, user stories, and product documentation that guide the team</li>
+          <li>Build product explanation content for internal and client-facing use</li>
+          <li>Prepare and manage stakeholder reports — progress, risks, outcomes</li>
+        </ul>
+      </div>
+      <div>
+        <h4><span class="skill-icon" data-icon="users"></span> Cross-functional collaboration</h4>
+        <ul>
+          <li>Work closely with Engineering, QA, Design, Marketing, and Support through every release</li>
+          <li>Support sprint planning, backlog prioritization, and release management in an agile setup</li>
+          <li>Participate in UAT and validate features before they go live</li>
+        </ul>
+      </div>
+      <div>
+        <h4><span class="skill-icon" data-icon="trending"></span> Clients, data &amp; growth</h4>
+        <ul>
+          <li>Attend client meetings to gather requirements and translate business needs into product solutions</li>
+          <li>Track product performance, analyze KPIs, and prepare insights-driven reports</li>
+          <li>Monitor product health by looking at user behavior, engagement, and bottlenecks for continuous improvement</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="section-head">
+      <div class="label"><span class="label-icon" data-icon="mail"></span> Get in touch</div>
+    </div>
+    <h2>Happy to talk.</h2>
+    <p>Open to conversations about B2B SaaS product work, feature requests, client and team management, growth, and how users actually behave with what we ship.</p>
+    <div class="contact-links">
+      <a class="magnetic" href="mailto:reachmehzabeen@gmail.com"><span class="link-icon" data-icon="mail"></span>reachmehzabeen@gmail.com</a>
+      <a class="magnetic" href="tel:01712925647"><span class="link-icon" data-icon="phone"></span>01712925647</a>
+      <a class="magnetic" href="https://www.linkedin.com/in/mehzabeen-chy" target="_blank" rel="noopener"><span class="link-icon" data-icon="linkedin"></span>LinkedIn</a>
+    </div>
+  </section>
+
+</main>
+
+<script src="main.js" defer></script>
+
+</body>
+</html>
